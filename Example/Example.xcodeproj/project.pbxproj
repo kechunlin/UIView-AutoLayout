@@ -298,7 +298,7 @@
 				GCC_PREFIX_HEADER = "Example/Example-Prefix.pch";
 				INFOPLIST_FILE = "Example/Example-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "2db4d795-b24c-4418-bcea-0d336e3e76fd";
+				PROVISIONING_PROFILE = "faf8b8d7-39ea-4cb3-9488-0d3360092585";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -311,7 +311,7 @@
 				GCC_PREFIX_HEADER = "Example/Example-Prefix.pch";
 				INFOPLIST_FILE = "Example/Example-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "2db4d795-b24c-4418-bcea-0d336e3e76fd";
+				PROVISIONING_PROFILE = "faf8b8d7-39ea-4cb3-9488-0d3360092585";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
