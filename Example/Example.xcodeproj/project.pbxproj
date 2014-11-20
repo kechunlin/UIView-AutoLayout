@@ -298,7 +298,7 @@
 				GCC_PREFIX_HEADER = "Example/Example-Prefix.pch";
 				INFOPLIST_FILE = "Example/Example-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "3936a606-4c50-4910-874c-07d1c1cdd654";
+				PROVISIONING_PROFILE = "efc51a79-821d-4d88-8750-c8adf56e06cb";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -306,11 +306,12 @@
 		B12C240017C3FDE4001CF667 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Lei Fan (QJ95ECKTAY)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Example/Example-Prefix.pch";
 				INFOPLIST_FILE = "Example/Example-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "3936a606-4c50-4910-874c-07d1c1cdd654";
+				PROVISIONING_PROFILE = "efc51a79-821d-4d88-8750-c8adf56e06cb";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
