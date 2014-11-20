@@ -25,8 +25,8 @@
 /* Begin PBXFileReference section */
 		6552AB9417D428A40073E592 /* ar */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ar; path = ar.lproj/ALViewController.xib; sourceTree = "<group>"; };
 		6552AB9517D428A40073E592 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6552AB9917D42AC80073E592 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		6552AB9B17D42ADB0073E592 /* ar */ = {isa = PBXFileReference; lastKnownFileType = file; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6552AB9917D42AC80073E592 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6552AB9B17D42ADB0073E592 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B12C23DB17C3FDE4001CF667 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B12C23DE17C3FDE4001CF667 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B12C23E017C3FDE4001CF667 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -293,10 +293,12 @@
 		B12C23FF17C3FDE4001CF667 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Example/Example-Prefix.pch";
 				INFOPLIST_FILE = "Example/Example-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "dcf0d521-7b6f-4389-bca6-1b0c6a6205d9";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -308,6 +310,7 @@
 				GCC_PREFIX_HEADER = "Example/Example-Prefix.pch";
 				INFOPLIST_FILE = "Example/Example-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "dcf0d521-7b6f-4389-bca6-1b0c6a6205d9";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
